@@ -1,0 +1,221 @@
+/*Created with Adobe RoboHelp.*/
+body {
+  font-family: Arial;
+  font-size: 14px;
+  margin: 0;
+}
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 19px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 16px;
+}
+h5 {
+  font-weight: bold;
+  font-size: 13px;
+}
+h6 {
+  font-weight: bold;
+  font-size: 11px;
+}
+p {
+  margin: 0;
+}
+p.bold {
+  font-weight: bold;
+}
+a.expandspot {
+  color: #008000;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+}
+span.expandtext {
+  font-style: italic;
+  font-weight: normal;
+  color: #ff0000;
+}
+a.dropspot {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+a.dropspottable:hover {
+  background-color: deepskyblue;
+}
+a.glossterm {
+  color: #800000;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+}
+span.glosstext {
+  font-style: italic;
+  font-weight: normal;
+  color: #0000ff;
+}
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+a.minitoc-caption {
+  text-decoration: none;
+  color: initial;
+  font-weight: bold;
+}
+p.minitoc-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.minitoc-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+ol.minitoc-list ol {
+  list-style: none;
+}
+a.minitoc-list-item {}
+div.breadcrumbs {}
+span.breadcurmbs-home-prefix {}
+a.breadcurmbs-home {}
+.breadcurmbs-separator {}
+a.breadcrumbs-link {}
+a.breadcrumbs-topic {}
+p.seealso-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.seealso-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+a.seealso-list-item {}
+p.reltopics-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.reltopics-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+a.reltopics-list-item {}
+ul.Disc {
+  list-style-type: disc;
+}
+ul.Circle {
+  list-style-type: circle;
+}
+.flex_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.left_column {
+  order: 1;
+  background-color: whitesmoke;
+  flex: 1;
+}
+.middle_column {
+  max-width: 960px;
+  order: 2;
+  background-color: white;
+  padding: 1em;
+}
+.right_column {
+  order: 3;
+  background-color: whitesmoke;
+  flex: 1;
+}
+.header {
+  background-color: teal;
+  height: 4em;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  /* line-height: 4em; used to vertically center text*/
+  /* vertical-align: middle; */
+}
+.footer {
+  background-color: gray;
+  height: 8em;
+  padding: 1em;
+}
+div.cechelp_button {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin: 0 1em 0 1em;n
+}
+div.cechelp_button:hover {
+  background-color: deepskyblue;
+  cursor: pointer;
+}
+div.menu_button {
+  margin: 0 1em 0 1em;
+  height: 32px;
+  width: 32px;
+  background: no-repeat url("../images/hamburger_menu_icon.png");
+}
+div.menu_button2 {
+  margin: 0 1em 0 1em;
+  height: 32px;
+  width: 32px;
+  background: no-repeat url("../images/close.png");
+}
+div.menu_button:hover {
+  background-color: deepskyblue;
+  cursor: pointer;
+}
+p.heading_teal {
+  background-color: #008080;
+  display: block;
+  color: #C0C0C0;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 0.1em;
+}
+p.heading_grey {
+  background-color: #C0C0C0;
+  display: block;
+  color: #008080;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 0.1em;
+}
+p.heading_title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1em auto;
+}
+p.note {
+  color: green;
+}
+table.VersionControlTable {}
+table.VersionControlTable tr:first-child td {
+  color: #C0C0C0;
+  background-color: teal !important;
+}
+table.VersionControlTable tr:nth-child(odd) td {
+  background-color: #c9c9c9;
+}
+div#navigation {
+  width: 100%;
+  background-color: green;
+}
